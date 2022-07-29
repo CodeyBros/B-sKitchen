@@ -18,7 +18,7 @@
 .hero-heading {
     font-family: 'Poppins';
     font-weight: 600;
-    line-height: 1.5rem;
+    line-height: 1.5em;
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
@@ -49,13 +49,13 @@
         font-size: 3rem;
         margin-bottom: 2rem;
         text-align: left;
-        line-height: 4rem;
+        line-height: 2em;
     }
     .hero-paragraph p {
         margin-bottom: 2rem;
         text-align: left;
         font-size: 1.8rem;
-        line-height: 2.5rem;
+        line-height: 1.5em;
     }
     .hero-button {
         text-align: left;
