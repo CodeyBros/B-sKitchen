@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Booking | B's Kitchen</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="globalStyle.css">
+    <link rel="stylesheet" href="component.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/a342580c0b.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- Scroll Animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <!-- Nav Bar Start -->
+    <header>
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html" class="logo-wrapper">
+                        <img src="images/logo.svg" alt="Logo"><h1> B's Kitchen</h1>
+                    </a>
+                </div>
+                <nav>
+                    <div class="hamburger-icon">
+                        <i class="fa-solid fa-burger"></i>
+                    </div>
+                    <div class="navBgOverlay"></div>
+                    <ul class="nav-list">
+                        <div class="close-icon">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <div class="nav-links-wrapper">
+                            <li><a href="index.html" class="nav-link">Home</a></li>
+                            <li><a href="menu.html" class="nav-link">Menu</a></li>
+                            <li><a href="about.html" class="nav-link">About</a></li>
+                            <li><a href="contact.html" class="nav-link">Contact</a></li>
+                            <li><a href="boookamenu.html" class="btn btn-primary">Book A Menu</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Nav Bar End -->
+
+    <!-- Booking Form Start -->
+    <section id="form" data-aos="fade-up">
+        <div class="container">
+            <h3 class="form-title">
+                Book Table
+            </h3>
+            <div class="form-wrapper">
+                <form>
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tableType">Table Type</label>
+                        <select name="tableType" id="tableType">
+                            <option selected disabled>Choose Table</option>
+                            <option value="small">Small (Table For 2)</option>
+                            <option value="medium">Medium (Table For 4)</option>
+                            <option value="large">Large (Table For 6)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="guestNumber">Guest Number</label>
+                        <input type="number" name="guestNumber" id="guestNumber" min="1" max="10" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="placement">Placement</label>
+                        <select name="placement" id="placement">
+                            <option selected disabled>Choose Placement</option>
+                            <option value="outdoor">Outdoor</option>
+                            <option value="indoor">Indoor</option>
+                            <option value="rooftop">Rooftop</option>
+                            <option value="theatre">Theatre</option>
+                            <option value="beach">Beach</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" name="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <input type="time" name="time" id="time" required>
+                    </div>
+                    <div class="form-group whole-grid">
+                        <label for="Note">Note</label>
+                        <textarea type="text" name="note" id="note" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Booking Form Ends -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="col-1">
+                    <div class="footer-logo">
+                        <img src="images/logo.svg" alt="Logo"><h1> B's Kitchen</h1>
+                    </div>
+                    <p class="footer-desc">
+                        Fresh and delicious pastries and African dishes to delight the whole you and your whole family.
+                    </p>
+                    <div class="footer-socials">
+                        <h4 class="social-title">
+                            Follow Us
+                        </h4>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h3 class="social-title">
+                        Links
+                    </h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="bookamenu.html">Book Table</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3 class="social-title">
+                        Support
+                    </h3>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Support Center</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3 class="social-title">
+                        Contact
+                    </h3>
+                    <ul>
+                        <li><a href="tel:+23467421907">+23467421907</a></li>
+                        <li><a href="mailto:osguy100@gmail.com">Osguy100@Gmail.com</a></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i>Benin City, Nigeria.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    
+    <!-- Attribution -->
+    <div id="attribution">
+        <h4>
+            Project by CodeyBros
+        </h4>
+        <div class="att-link">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>     
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+
+</html>
