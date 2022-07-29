@@ -124,6 +124,9 @@
 .our-specials-title {
     font-size: 2rem;
 }
+.our-specials-right a {
+    margin-top: 1rem;
+}
 
 @media (min-width: 768px) {
     #our-specials {
